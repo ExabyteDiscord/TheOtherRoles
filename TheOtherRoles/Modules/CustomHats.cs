@@ -404,7 +404,7 @@ namespace TheOtherRoles.Modules {
 
     public class CustomHatLoader {
         public static bool running = false;
-        private const string REPO = "https://raw.githubusercontent.com/ExabyteDiscord/TheOtherHats/master";
+        private const string REPO = "https://raw.githubusercontent.com/ExabyteDiscord/OtherHats/master";
 
         public static List<CustomHatOnline> hatdetails = new List<CustomHatOnline>();
         private static Task hatFetchTask = null;
